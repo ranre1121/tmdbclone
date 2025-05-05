@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@theme {
+    --color-primary: #0d253f;
+    --color-secondary: #01b4e4;
+}
+
+button{
+    cursor: pointer;
+}
+img{
+    cursor: pointer;
+}
+
+*{
+    object-fit: border-box;
+}
+
+::-webkit-scrollbar {
+    width: 8px;  /* Scrollbar width */
+    height: 8px; /* Horizontal scrollbar height */
+}
+
+/* Track (background of scrollbar) */
+::-webkit-scrollbar-track {
+    display: none;
+}
+
+/* Handle (draggable part) */
+::-webkit-scrollbar-thumb {
+    background: #e0e0e0;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #cecece;
+}
